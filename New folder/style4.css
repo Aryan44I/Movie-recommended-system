@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#nav{
+  padding: .2rem;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+}
+#nav h2{
+font-weight: 1000;
+color: white;
+}
+
+#center-nav{
+    align-items: center;
+   display: flex;
+   gap: 15px;
+}
+
+#center-nav a{
+   padding: .5rem;
+   display: flexbox;
+   text-decoration: none;
+   color: rgb(255, 252, 252);
+   font-weight: 500;
+   font-size: 18px;
+}
+
+.search {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.search:focus {
+  outline: none;
+  background-color: var(--primary-color);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content {
+    background-color: #373b69;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(234, 230, 230, 0.1);
+  }
+
+  h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  body {
+    background-color: var(--primary-color);
+  }
+  
+  .form-container {
+    background-color: #373b69; /* blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* adjust width to your liking */
+    margin: 40px auto; /* center the form */
+    text-align: center; /* center the form elements */
+    color: #ffffff; /* white text color */
+  }
+  
+  .form-container h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  select, textarea, input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    flex-shrink: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  footer p.text-md-right {
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #007bff;
+  }
+  
